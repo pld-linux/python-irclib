@@ -6,7 +6,7 @@ Summary(pl):	Zestaw modu³ów Pythona do obs³ugi IRC-a
 Name:		python-%{module}
 Version:	0.4.4
 Release:	1
-License:	BSD
+License:	LGPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	08cac5978df640aaa24d3a4a47274b90
