@@ -40,7 +40,7 @@ python setup.py build
 rm -rf $RPM_BUILD_ROOT
 
 python setup.py install --optimize=2 \
-        --root=$RPM_BUILD_ROOT
+	--root=$RPM_BUILD_ROOT
 
 find $RPM_BUILD_ROOT%{py_sitescriptdir} -type f -name "*.py" | xargs rm
 
