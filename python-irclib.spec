@@ -12,7 +12,6 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	08cac5978df640aaa24d3a4a47274b90
 URL:		http://python-irclib.sourceforge.net/
 BuildRequires:	python >= 2.2.1
-BuildRequires:	rpm-pythonprov >= 4.0.2-50
 %pyrequires_eq	python
 BuildArch:	noarch
 Obsoletes:	%{module}
