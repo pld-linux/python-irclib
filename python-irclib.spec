@@ -5,7 +5,7 @@ Summary:	A set of Python modules for IRC support
 Summary(pl):	Zestaw modu³ów Pythona do obs³ugi IRC-a
 Name:		python-%{module}
 Version:	0.4.2
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
