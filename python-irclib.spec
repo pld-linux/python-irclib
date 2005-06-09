@@ -4,12 +4,13 @@
 Summary:	A set of Python modules for IRC support
 Summary(pl):	Zestaw modu³ów Pythona do obs³ugi IRC-a
 Name:		python-%{module}
-Version:	0.4.4
+Version:	0.4.5
 Release:	1
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	08cac5978df640aaa24d3a4a47274b90
+# Source0-md5:	141b7cd26723b337ef277ff5eb56bb5e
+Patch0:		%{name}-CR.patch
 URL:		http://python-irclib.sourceforge.net/
 BuildRequires:	python >= 2.2.1
 %pyrequires_eq	python
@@ -31,6 +32,7 @@ DCC.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 python setup.py build
