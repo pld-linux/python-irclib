@@ -2,7 +2,7 @@
 %define		module	irclib
 
 Summary:	A set of Python modules for IRC support
-Summary(pl):	Zestaw modu³ów Pythona do obs³ugi IRC-a
+Summary(pl.UTF-8):   Zestaw moduÅ‚Ã³w Pythona do obsÅ‚ugi IRC-a
 Name:		python-%{module}
 Version:	0.4.5
 Release:	1
@@ -24,10 +24,10 @@ low level. It provides an event-driven IRC client framework. It has a
 fairly thorough support for the basic IRC protocol, CTCP and DCC
 connections.
 
-%description -l pl
-Ta biblioteka ma za zadanie obudowywaæ protokó³ IRC na dosyæ niskim
+%description -l pl.UTF-8
+Ta biblioteka ma za zadanie obudowywaÄ‡ protokÃ³Å‚ IRC na dosyÄ‡ niskim
 poziomie. Dostarcza szkielet klienta IRC sterowany zdarzeniami. Ma
-w miarê gruntown± obs³ugê dla podstaw protoko³u IRC i po³±czeñ CTCP i
+w miarÄ™ gruntownÄ… obsÅ‚ugÄ™ dla podstaw protokoÅ‚u IRC i poÅ‚Ä…czeÅ„ CTCP i
 DCC.
 
 %prep
