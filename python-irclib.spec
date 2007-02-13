@@ -2,7 +2,7 @@
 %define		module	irclib
 
 Summary:	A set of Python modules for IRC support
-Summary(pl.UTF-8):   Zestaw modułów Pythona do obsługi IRC-a
+Summary(pl.UTF-8):	Zestaw modułów Pythona do obsługi IRC-a
 Name:		python-%{module}
 Version:	0.4.5
 Release:	1
