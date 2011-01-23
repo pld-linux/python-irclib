@@ -13,6 +13,8 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Patch0:		%{name}-CR.patch
 URL:		http://python-irclib.sourceforge.net/
 BuildRequires:	python >= 2.2.1
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python
 BuildArch:	noarch
 Obsoletes:	%{module}
