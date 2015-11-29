@@ -12,6 +12,7 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	141b7cd26723b337ef277ff5eb56bb5e
 Patch0:		%{name}-CR.patch
 URL:		http://python-irclib.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python >= 2.2.1
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
